@@ -20,7 +20,7 @@ def DM_test(a,b):
 
     d=a-b
     d_mean=np.abs(np.mean(d))
-    d_std=np.std(d-d_mean)
+    d_std=np.std(d)
     if d_std==0:
         DM=1e10
     else:
